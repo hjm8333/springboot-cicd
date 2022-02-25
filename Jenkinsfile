@@ -3,19 +3,19 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        echo 'build done'
+        echo '빌드 끗'
       }
     }
 
     stage('upload') {
       steps {
-        echo 'upload done'
+        echo '업로드 끗'
       }
     }
 
     stage('deploy') {
       steps {
-        echo 'delploy done'
+        echo '디플로이 끗'
       }
     }
 
