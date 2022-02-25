@@ -10,7 +10,7 @@ pipeline {
 
     stage('upload') {
       steps {
-        echo '업로드 끗'
+        echo '업로드 끗 ㅖㅏ'
         sh 'aws s3 cp build/libs/application.war s3://springboot-cicd-uhmjunsik/application.war --region us-west-1' 
       }
     }
